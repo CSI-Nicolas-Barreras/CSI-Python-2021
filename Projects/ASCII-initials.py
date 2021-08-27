@@ -1,0 +1,8 @@
+print("N\  N\    GGGG\  BBBB \  V|   V |")
+print("NN\ N |  G ___|  B|  B | V|   V |")
+print("N N|N |  G|      B|  B | V|   V |")
+print("N  NN |  G| GG\  BBBB <   V V  /")
+print("N - N |  G|_ G | B|  B |  V V |")
+print("N|  N |  G   G | B|  B |  V V |")
+print("N|  N | | GGG  | BBBB  |   V  /")
+print("_| |__|  \____/ |_____/    \_/")

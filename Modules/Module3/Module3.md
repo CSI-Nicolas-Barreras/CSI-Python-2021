@@ -96,24 +96,24 @@ print(type(age))
 
 What is the difference between "42" and 42.
 
- - Answer:
+ - Answer:The differnrence is the cotations beacuse "42" is a string and 42 is and integer.
 
 Define the boolean operators: >, <, ==, >=, <=
 
- - Answer:
+ - Answer:Grater than 5>2 true, less than 3<6 true, equal 5=5 true,grater equal 10>=10 true, less equal 13<=13.
 
 How do you address an index in an list? Write a python code that assigns 34 to a new variable by accessing the value stored in:  
         arr = [4, 3, -1, 4, 34]
 
- - Answer:
+ - Answer: bodyboarding:int=arr[4]
 
 What is the first index of a list? Why?
 
- - Answer:
+ - Answer:0 because is the first number 
 
 Provide an original example of a null value. It must prove your understanding of the concept.
 
- - Answer:
+ - Answer:how many student live in Puerto Rico
 
 Type down any class notes below this sentence:
 

@@ -72,8 +72,26 @@ Give a python example for each logic operator in the module image.
 
  - Answers:
    - OR:INCLUSIVE
+   X=50
+   Y=20
+    if(x<0  or  y<0)
+        1        1
+             1
+    
    - AND: EXCLUSIVE
+   X=40
+   Y=30
+    if(x<0  and  y==0)
+        1          0
+              1
+
    - NOT: NOT OTHER
+   X=60
+   Y=20
+    if (not(x==0 or y==0))
+             0       0
+             Not (1)
+         
 
 
 Type down any class notes below this sentence:

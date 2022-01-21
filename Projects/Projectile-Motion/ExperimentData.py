@@ -2,7 +2,7 @@
 import math
 class ExperimentData:
 
-    def __init__(self, gun:str,CartigeCalibre:str, ammulation:str, Projectilevelocity_mps:int, building:str, height_m:int,gravity:float):
+    def __init__(self, gun:str,CartigeCalibre:str, ammulation:str, Projectilevelocity_mps:int, building:str, height_m:int,gravity:float,f):
         self.gun= gun
         self. CartigeCalibre=CartigeCalibre
         self.ammulation=ammulation
@@ -10,6 +10,7 @@ class ExperimentData:
         self.building=building
         self.height_m= height_m
         self.gravity=gravity
+
 
     def getTime(self):
         return ( math.sqrt((2*self.height_m)/self.gravity))

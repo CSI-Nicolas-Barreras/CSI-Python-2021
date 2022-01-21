@@ -1,0 +1,50 @@
+{
+    "UseTileCheck": true,
+    "DisabledWebSites": [
+        "https://*.sharepoint.com/:*:/*"
+    ],
+    "AllowedUrls": [
+        ".*"
+    ],
+    "DisabledGrammars": [],
+    "VersionEmergencyOverrides": {
+        "1.0.0.*": "Off"
+    },
+    "FeatureFlags": {
+        "enableVisibilityTracker": "True",
+        "enableSquigglesUpdateThrottling": "True",
+        "disableSquigglesCacheInUpdateRanges": "False",
+        "enableSimplifiedHost": "True",
+        "enableParagraphUpdates": "True",
+        "enableForceClearCritiques": "False",
+        "enableOrchestratorEmitAll": "True",
+        "enablePhraseTextUnitClientSide": "True"
+    },
+    "Descriptors": "[{\"name\":\"FlightIds\",\"value\": \"Wac-WordEditorServiceSuggestionDescriptionsNoReferenceInformation-Treatment;Wac-WordEditorServiceMultipleGrammarCritiquesPerSentence-Treatment\"}]",
+    "ConflictingElements": [
+        "data-ms-editor"
+    ],
+    "SpellCheckAttributes": [],
+    "RootContentMaxLengthInChars": 2000,
+    "StyleObserverIntervalTime": 1,
+    "StyleSampleTime": 10,
+    "SchedulerDefaultWaitingTime": 50,
+    "SchedulerDefaultWaitingTimeIncrement": 400,
+    "SchedulerDefaultMaxTime": 2000,
+    "RefreshCritiqueWaitingTime": 1000,
+    "RequestCritiqueDelay": 400,
+    "EnableDirtyRangeAutoRehydration": true,
+    "TelemetryTenant": "{\"tenantName\": \"NaturalLanguage\",\"ariaTenantToken\": \"71cc1046851042108843d90e5d3ef6c1-61e5de5c-238c-4de5-95de-3b40d20ea6e5-6899\",\"nexusTenantToken\": 1733}",
+    "LogGroupName": "EditorBx",
+    "SendToAria": true,
+    "IntervalForActivityCleanup": 600000,
+    "MaxAllowedTimeForActivities": 3600000000,
+    "CalloutHoverTimeout": 200,
+    "MaxSuggestionItemsDisplayNumber": 3,
+    "ConfigurationId": "P-R-89231-6-89,P-R-83860-16-93,P-D-85304-1-3",
+    "EditorClientState": 2,
+    "EditorCanvas": "{\n  }",
+    "RequestId": "00000000-0000-0000-0000-000000000000",
+    "ResponseMessage": null,
+    "ResponseStatus": 0
+}

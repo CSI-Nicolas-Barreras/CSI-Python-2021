@@ -1,4 +1,4 @@
-class RamdonFood:
+class RandomFood:
     def __init__(self, id:int, uid:str, dish:str, description:str, ingredient:str, measurement:str):
         self.id:int = id
         self.uid:str = uid

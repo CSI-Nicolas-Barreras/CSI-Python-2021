@@ -172,4 +172,5 @@ while True:
 
         if(counter == 7):   # it counts the steps until you get to the step 7 so it can print Game Over
             print("G A M E  O V E R ")  # prints the string
+            print(f"The word was= {myFood}") # prints the correct word that you were looking for
             break   #reset the game

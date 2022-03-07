@@ -167,10 +167,28 @@ while True:
 
 #this tells us if we won or lost the game
         if(temp == myFood):   #
-            print ("G A M E  W O N")  # prints the string
+            print ("""
+                      _______          ___          ____     ____     ________       ____                ___    ________      _____   ___
+                    /  GGGGGG|        /  A\        |  MM|   /  MM|   |  EEEEEE|     |  WW|              | WW|  /  OOOOOO\    |  NNN\ | NN|
+                   |  GG             /  AAA\       |  MMMM|/ MMMM|   |  E|---/       \  WW\    _____  /  WW/  /  OO-\  OO\   |  NNNN\| NN|
+                   |  GG   __       /  A   A\      |  MM MMMMM MM|   |  EEEE|         \  WW\ /  WWW\ /  WW/   | OO|  |  OO|  |  NN|NN| NN|
+                   |  GG  |GG|     /  AAAAAAA\     |  MM|--- | MM|   |  EEEE|          \  WW/  WW WW/  WW/    | OO|  |  OO|  |  NN\ NN NN|
+                   |  GG   \G|    /  AA/--\ AA\    |  MM|    | MM|   |  E|--/           \  WW WW\  WW WW/     \  OO_/  OO/   |  NN|\ NNNN|
+                   |   GGGGGG|   /  AA/    \ AA\   |  MM|    | MM|   |  EEEEEE|          \  WWW/ \  WWW/       \  OOOOOO/    |  NN| \ NNN|
+                    \-------/   /____/      \___\   \__/      \_/     \______/            \___/   \___/         \______/      \__/   \__/
+                      """)  # prints the string
             break   #reset the game
 
         if(counter == 7):   # it counts the steps until you get to the step 7 so it can print Game Over
-            print("G A M E  O V E R ")  # prints the string
+            print("""
+                      _______          ___          ____     ____     ________        ________    _____       _____    ________     ________
+                    /  GGGGGG|        /  A\        |  MM|   /  MM|   |  EEEEEE|      /  OOOOOO\   \  VV\     /  VV/   |  EEEEEE|   |  RRRRRR\   
+                   |  GG             /  AAA\       |  MMMM|/ MMMM|   |  E|---/      /  OO-\  OO\   \  VV\   /  VV/    |  E|---/    |  RR|\ RR|
+                   |  GG   __       /  A   A\      |  MM MMMMM MM|   |  EEEE|       | OO|  |  OO|   \  VV\ /  VV/     |  EEEE|     |  RR|/ RR|
+                   |  GG  |GG|     /  AAAAAAA\     |  MM|--- | MM|   |  EEEE|       | OO|  |  OO|    \  VV/  VV/      |  EEEE|     |  RRRRR<
+                   |  GG   \G|    /  AA/--\ AA\    |  MM|    | MM|   |  E|--/       \  OO_ / OO/      \  VV/VV/       |  E|--/     |  RR\ RR\  
+                   |   GGGGGG|   /  AA/    \ AA\   |  MM|    | MM|   |  EEEEEE|      \  OOOOOO/        \  VVV/        |  EEEEEE|   |  RR|\ RR|
+                    \_______/   /____/      \___\   \__/      \_/     \______/        \______/          \___/          \______/     \__/  \_/
+                    """)  # prints the string
             print(f"The word was= {myFood}") # prints the correct word that you were looking for
             break   #reset the game

@@ -167,10 +167,10 @@ while True:
 
 #this tells us if we won or lost the game
         if(temp == myFood):   #
-            print ("""
-                      _______          ___          ____     ____     ________       ____                ___    ________      _____   ___
-                    /  GGGGGG|        /  A\        |  MM|   /  MM|   |  EEEEEE|     |  WW|              | WW|  /  OOOOOO\    |  NNN\ | NN|
-                   |  GG             /  AAA\       |  MMMM|/ MMMM|   |  E|---/       \  WW\    _____  /  WW/  /  OO-\  OO\   |  NNNN\| NN|
+            print ("""                                                                   
+                      _______          ___          ____     ____     ________       ____               ____    ________      _____   ___
+                    /  GGGGGG|        /  A\        |  MM|   /  MM|   |  EEEEEE|     |  WW|             |  WW|  /  OOOOOO\    |  NNN\ | NN|
+                   |  GG             /  AAA\       |  MMMM|/ MMMM|   |  E|---/       \  WW\   _____   /  WW/  /  OO-\  OO\   |  NNNN\| NN|
                    |  GG   __       /  A   A\      |  MM MMMMM MM|   |  EEEE|         \  WW\ /  WWW\ /  WW/   | OO|  |  OO|  |  NN|NN| NN|
                    |  GG  |GG|     /  AAAAAAA\     |  MM|--- | MM|   |  EEEE|          \  WW/  WW WW/  WW/    | OO|  |  OO|  |  NN\ NN NN|
                    |  GG   \G|    /  AA/--\ AA\    |  MM|    | MM|   |  E|--/           \  WW WW\  WW WW/     \  OO_/  OO/   |  NN|\ NNNN|
@@ -192,3 +192,5 @@ while True:
                     """)  # prints the string
             print(f"The word was= {myFood}") # prints the correct word that you were looking for
             break   #reset the game
+
+

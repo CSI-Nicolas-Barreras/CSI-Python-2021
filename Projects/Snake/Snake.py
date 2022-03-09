@@ -14,8 +14,12 @@ game_over=False
 while not game_over:
     #no c
     for event in pygame.event.get():
+        #no c
+        if event.type==pygame.QUIT:
+             # variable game over that is a bolean that is true
+             game_over=True
         #prints out all the actions that take place on the screen
-        print(event)   
+        #print(event)   
 # shut down pygame.
 pygame.quit()
 # it terminates the execution of the program completely.

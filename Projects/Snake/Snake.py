@@ -22,7 +22,9 @@ while not game_over:
              # variable game over that is a bolean that is true
              game_over=True
         #prints out all the actions that take place on the screen
-        #print(event)   
+        pygame.draw.rect(dis,blue,[200,150,10,10])
+        #print(event)
+        pygame.display.update() 
 # shut down pygame.
 pygame.quit()
 # it terminates the execution of the program completely.

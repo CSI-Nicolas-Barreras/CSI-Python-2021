@@ -1,4 +1,5 @@
 #imports the libary that we downloaded for games.
+import random
 import pygame 
 # initialize all imported pygame modules.
 pygame.init()
@@ -72,7 +73,7 @@ def gameLoop():  # creating a function
                 if event.type==pygame.QUIT:
                 # variable game over that is a bolean that is true
                     game_over=True
-            
+                # snake game rules 
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_LEFT:
                         x1_change = -10
